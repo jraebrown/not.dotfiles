@@ -89,3 +89,5 @@ dnf remove firefox kwalletmanager 'calligra-*' kontact kmail korganizer kaddress
 systemctl start docker
 systemctl enable docker
 usermod -aG docker jonathan
+
+dnf install barrier
