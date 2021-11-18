@@ -90,4 +90,4 @@ systemctl start docker
 systemctl enable docker
 usermod -aG docker jonathan
 
-dnf install barrier
+dnf install barrier guake
