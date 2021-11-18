@@ -21,17 +21,17 @@ install:
 	ln -sf ~/.dotfiles/.tmux.conf ~/.tmux.conf
 #	git clone https://github.com/santosh/.vim.git ~/.vim
 #	cd ~/.vim && make install
-	git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
-	cd zsh-autocomplete source 
-	zsh-autocomplete.plugin.zsh
+#	git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
+#	cd zsh-autocomplete source 
+#	zsh-autocomplete.plugin.zsh
 
-	cd
+#	cd
 
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-	echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-	source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+#	echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+#	source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-	git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+#	git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
 
 	echo "Done installing dotfiles."
 
