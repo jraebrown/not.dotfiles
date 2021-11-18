@@ -15,6 +15,8 @@ export PATH="/usr/local/sbin:$HOME/crwctl/bin:${PATH}"
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.dotfiles/oh-my-zsh
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
 # Set to this to use case-sensitive completion
 export CASE_SENSITIVE="true"
 
